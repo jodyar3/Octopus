@@ -1,2 +1,20 @@
-# Octopus
+src/build
+src/node_modules
+node_modules
+/coverage
+npm/*/*
+!npm/*/package.json
+test/bench/node_modules
+test/fixtures/output*
+test/fixtures/vips-properties.xml
+test/leak/libvips.supp
+.DS_Store
+.nyc_output
+.vscode/
+package-lock.json
+.idea
+.firebase
+.astro
+docs/dist
+release-notes.md# Octopus
 Octopusweb
